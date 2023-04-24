@@ -43,12 +43,113 @@
     <script>
         var jQ = new Array();
     </script>
-    <h1>B2B</h1>
+
+
+
+
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-sm-8">
+                <h3>B2B</h3>
+            </div>
+            <div class="col-sm-4">
+
+
+                <nav class="navbar navbar-expand-sm">
+
+                    <div class="container-fluid">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Join</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Login</a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </nav>
+
+
+            </div>
+        </div>
+
+        <div class="searchbar">
+            <div class="select_wrapper">
+                <select name="ms">
+                    <option value="0" selected="selected">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">In all offers</font>
+                        </font>
+                    </option>
+                    <option value="1">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Search in offers</font>
+                        </font>
+                    </option>
+                    <option value="2">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Offer in offers</font>
+                        </font>
+                    </option>
+                    <option value="4">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">In export offers</font>
+                        </font>
+                    </option>
+                </select>
+            </div>
+            <div class="searchtext">
+                <input type="text" name="srch" value="" placeholder="What are you looking for?">
+            </div>
+            <div class="searchbutton">
+                <button type="submit" class="search">
+                    <i class="material-icons">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">search</font>
+                        </font>
+                    </i>
+                </button>
+            </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col-sm-3">
+
+
+                <select class="form-select form-select-lg">
+                    <option>All Offer</option>
+                    <option>Demand</option>
+                    <option>Supply</option>
+                    <option>Export</option>
+                    <option>Import</option>
+                </select>
+
+
+
+            </div>
+            <div class="col-sm-3">
+
+                <div class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </div>
+
+            </div>
+            <div class="col-sm-3">col-sm</div>
+            <div class="col-sm-3">col-sm</div>
+        </div> -->
+    </div>
 
 
 
     <!-- Vendor JS Files -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 
     <!-- Template Main JS File -->
     <script src="<?= base_url() ?>/assets/frontend/js/main.js"></script>
@@ -58,8 +159,6 @@
             jQ[i]();
         }
     </script>
-
-
 </body>
 
 </html>
@@ -68,8 +167,8 @@
 
 
 
-        <!-- ======= Contact Section ======= -->
-        <!-- <section id="contact" class="contact">
+<!-- ======= Contact Section ======= -->
+<!-- <section id="contact" class="contact">
             <div class="container" data-aos="fade-up">
                 <header class="section-header">
                     <h2>Contact</h2>
@@ -174,4 +273,4 @@
                 </div>
             </div>
         </section> -->
-        <!-- End Contact Section -->
+<!-- End Contact Section -->
